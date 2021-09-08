@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drop down</title>
+        <style>
+            .first{
+                margin: 20px;
+                padding: 20px;
+                width: 300px;
+                list-style-type: none;
+               
+            }
+            .button{
+                background: fixed;
+                color: solid red;
+                font-size: larger;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-weight: 200;
+                
+            }
+        ul{
+            text-decoration: none;
+            text-align: center;
+            list-style-type: none;
+           
+        }
+        li a:hover{
+            color: fuchsia;
+            background-color: antiquewhite;
+             width: 150px;
+        }
+        /* main thi thing which make drop down*/
+        .menu{
+            display: none;
+            position: absolute;
+            background-color: blue;
+        }
+        .menu a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .first:hover .menu {
+  display: block;
+}
+
+.first:hover .button {
+  background-color: #3e8e41;
+}
+        </style>
+    </head>
+    <body>
+<div class="first">
+  <button class="button">Products</button>  
+   <ul class="menu">
+       <li><a href="">CHOCOLATE</a></li>
+       <li><a href="">BREAD </a></li>
+       <li><a href="">ICECREAM </a></li>
+       <li><a href="">PIZZA </a></li>
+       <li><a href="">SWEET </a></li>
+   </ul>
+</div>
+    </body>
+</html>

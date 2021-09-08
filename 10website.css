@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(cp.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2 em;
+  font-style: italic;
+  font-weight: bolder;
+  color: brown;
+  text-align: center;
+  padding-top: 20px;
+}
+.button {
+  padding-left: 40%;
+  background-color: #8b0000;
+}
+ul {
+  font-size: 30px; /* this is responsible for font size of inside tea coffee stuff*/
+  list-style-type: none;
+  list-style-position: initial;
+  margin-left: 850px;
+  padding: 0;
+  overflow: hidden;
+}
+ul li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 5px;
+  padding: 1opx 10px;
+}
+li {
+  float: left;
+}
+
+li a:hover {
+  /*this will change colour whn ever crusor move on tht*/
+  background-color: orangered;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  width: 200px;
+}
+/* this is the one who is handling item list*/
+li a {
+  text-decoration: none;
+  display: block;
+  color: yellowgreen;
+}
+
+ol li a:hover {
+  background-color: whitesmoke;
+  border-collapse: collapse;
+}

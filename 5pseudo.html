@@ -1,0 +1,41 @@
+<style>
+    /* unvisited link */
+    a:link {
+      color: red;
+    }
+    
+    /* visited link */
+    a:visited {
+      color: green;
+    }
+    
+    /* mouse over link */
+    a:hover {
+      color: rgb(255, 105, 143);
+    }
+    
+    /* selected link */
+    a:active {
+      color: blue;
+    }
+
+    /* pseudo class and css class*/
+    a.highlight:hover {
+  color: yellow;
+} 
+    </style>
+    </head>
+    <body>
+    
+    <h2>CSS Links</h2>
+    <p><b><a href="1genralselector.html" target="_blank">This is a link</a></b></p>
+    <!--  a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.
+     a:active MUST come after a:hover in the CSS definition in order to be effective -->
+
+     <!--Pseudo-classes and CSS Classes
+     When you hover over the first link below, it will change color -->
+     <p><a class="highlight" href="5pseudo.html">class link pseudo class</a></p>
+      <p><a href="4descentselector.html">CSS Tutorial</a></p>
+    
+    </body>
+    </html>

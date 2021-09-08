@@ -1,0 +1,124 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-image: url(back.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 5em;
+  font-style: italic;
+  color: brown;
+  text-align: center;
+}
+.home {
+  margin-left: 65%;
+  border-style: solid;
+  width: 650px;
+  height: 30px;
+  border-color: solid white;
+  border-width: 3px;
+
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+  text-align: end;
+  color: goldenrod;
+}
+a:hover {
+  background: white;
+  color: darkblue;
+}
+#p {
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+  color: yellow;
+}
+#title {
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+  color: yellow;
+}
+.button {
+  margin-left: 48%;
+  text-align: center;
+  width: 90px;
+  height: 50px;
+  background-color: black;
+  color: beige;
+}
+/*this will avoid the inhertance from above <a> tag property*/
+.wrapper ul li a {
+  color: red;
+}
+/*remember the order of going for selector is also important*/
+.wrapper ul li {
+  background: cadetblue;
+  width: 170px;
+  border: 1px solid white;
+  height: 50px;
+  font-weight: bolder;
+  position: relative;
+  font-style: italic;
+  list-style: none;
+}
+.wrapper ul li:hover {
+  background-color: brown;
+}
+/* we use only 2 ul so that only
+ main item which is suppose to display shud */
+.wrapper ul ul {
+  display: none;
+  margin-bottom: 50%;
+}
+.wrapper ul li:hover > ul {
+  display: block;
+}
+.wrapper ul {
+  margin-left: 170px;
+
+  position: absolute;
+}
+footer {
+  margin-top: 36.8%;
+  background: white;
+  color: darkgreen;
+}
+/* icon */
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 1px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: darkblue;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: red;
+  color: white;
+}
+.icon a {
+  margin-top: 13px;
+}
